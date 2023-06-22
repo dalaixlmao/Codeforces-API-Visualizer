@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Codeforces API Visualizer</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Codeforces API Visualizer</h1>
+    <div class="input-container">
+      <input class="enterHandle" type="text" id="handleInput" placeholder="Enter Codeforces Handle">
+      <button id="fetchBtn">Get Data</button>
+    </div>
+    <div id="chartContainer">
+      <canvas id="tagChart" class="bar"></canvas>
+      <canvas id="ratingChart" class="pie"></canvas>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
