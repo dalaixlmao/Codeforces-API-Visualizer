@@ -2,10 +2,6 @@
 
 A web application that fetches user submissions from the Codeforces API and visualizes the number of questions done by the user in different tags using a bar graph, and the number of questions done of every rating using a pie chart.
 
-## Demo
-
-Include a link or GIF demonstrating the application in action.
-
 ## Features
 
 - Fetches user submissions from the Codeforces API based on the provided handle.
